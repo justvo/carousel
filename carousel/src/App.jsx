@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './App.css'
-import Carousel from './Carousel';
+import Carousel from './components/Carousel';
 
 const images = [
   'https://placekitten.com/800/400',

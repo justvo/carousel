@@ -1,13 +1,29 @@
-.images{
+.carousel {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: brown;
+    overflow: hidden;
+}
+
+
+.images {
     display: flex;
     perspective: 1000px;
     perspective-origin: 50% 50%;
 
 }
-.prevIm{
+.image{
+    margin-right: 10px;
+}
+
+/* .prevIm {
     transform: scaleX(1) scaleY(0.88) scaleZ(1) rotateX(0deg) rotateY(-40deg) rotateZ(0deg) translateX(0px) translateY(-92px) translateZ(-204px) skewX(0deg) skewY(13deg)
 }
-.nextIm{
+
+.nextIm {
     transform: scaleX(1) scaleY(0.88) scaleZ(1) rotateX(0deg) rotateY(40deg) rotateZ(0deg) translateX(0px) translateY(-92px) translateZ(-204px) skewX(0deg) skewY(-13deg)
-}      
-    
+} */

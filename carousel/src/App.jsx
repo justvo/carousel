@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './App.css'
-import Carousel from './components/Carousel';
+import Carousel from './components/Carousel'
 
 const images = [
   'https://placekitten.com/800/400',
@@ -12,32 +12,11 @@ const images = [
 ];
 
 const App = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => {
-      prevIndex++;
-      if (prevIndex >= images.length) {
-        prevIndex = 0;
-      }
-
-      return prevIndex;
-    })
-  };
-
-  const prevSlide = () => {
-
-  };
-
+ 
   return (
     <div className="app">
+        <Carousel images={images}  />
 
-      <div className="carousel">
-        <button className='next-button' onClick={nextSlide}> next </button>
-
-        <Carousel images={images} curr={currentIndex}  />
-
-      </div>
 
     </div>
   );

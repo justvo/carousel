@@ -8,7 +8,7 @@ const images = [
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1WspfBUI7WDyUZpbzFLT04QJ-lEUKgayxCQ&usqp=CAU',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Eo_circle_red_number-1.svg/2048px-Eo_circle_red_number-1.svg.png',
   'https://pngimg.com/uploads/number2/Number%202%20PNG%20images%20free%20download_PNG14925.png',
-  'https://lh3.googleusercontent.com/proxy/ETXOAldg7OsdNYHsY_-onTOZW-G4EhA19slST96apejm3sak85ep4jSARX17-jB9FBmZfLb63wdenEVDyHXT-AjPBOQYx1cSNb7ZIV4x',
+  'https://th.bing.com/th/id/OIP.9B6txhb-5Z2kvJaYy4TLGgHaJx?rs=1&pid=ImgDetMain',
   'https://static.vecteezy.com/system/resources/previews/024/683/991/original/pink-3d-number-4-free-png.png',
   'https://cdn-icons-png.flaticon.com/512/3840/3840754.png',
   'https://www.thefactsite.com/wp-content/uploads/2021/06/number-6-facts-740x370.webp',
